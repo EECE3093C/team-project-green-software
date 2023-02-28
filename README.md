@@ -1,2 +1,5 @@
 # team-project-green-software
-Software respository for Team Green.
+
+Software repository for Team Green.
+
+Contains code for frontend UI
