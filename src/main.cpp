@@ -17,8 +17,8 @@ int getIntInput() {
 
 // Displays the plant selection menu
 void selectPlant() {
-    system("cls");
-    string menuText =
+    cout << "\n\n";
+    string menuText = "\n"
         "Please select an option\n"
         "1 - Return to main menu\n"
         "2 - Print \"Plant!\"\n"
@@ -29,7 +29,7 @@ void selectPlant() {
         int choice = getIntInput();
         switch(choice) {
         case 1:
-            system("cls");
+            cout << "\n\n";
             return;
         case 2:
             cout << "Plant!\n";
@@ -58,7 +58,6 @@ void mainMenu() {
             break;
         case 2:
             cout << "\nGoodbye!\n";
-            system("PAUSE");
             return;
 
         default:
@@ -69,7 +68,6 @@ void mainMenu() {
 
 int main(int argc, char *argv[])
 {
-    system("cls");
     cout << "Project Team Green: Jack Margeson, MJ Schnee, Hunter Kniflley, and Nick Bryant\n";
     mainMenu();
     return EXIT_SUCCESS;
